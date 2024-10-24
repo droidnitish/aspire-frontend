@@ -1,0 +1,54 @@
+/* src/styles/auth-style/agent-registration-form.module.css */
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: auto; /* Center the form on the page */
+    padding: 1rem; /* Reduce padding for a smaller form */
+    border-radius: 8px; /* Optional: Rounded corners */
+    background-color: #fff; /* Optional: Background color for better contrast */
+    zoom: 0.85;
+}
+
+.fullWidthInput {
+    width: 100%;
+}
+
+.twoColumnContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.twoColumnInput {
+    flex: 1;
+    margin-right: 0.5rem; /* Reduced space between columns */
+    max-width: calc(50% - 0.25rem); /* Ensure both inputs fit within the container */
+}
+
+.twoColumnInput:last-child {
+    margin-right: 0; /* Remove margin for the last item */
+}
+
+.selectInput {
+    flex: 1;
+    margin-right: 0.8rem; /* Space between columns */
+    padding: 0.75rem; /* Slightly reduce padding for a smaller height */
+    border: 1px solid #ccc; /* Border similar to input fields */
+    border-radius: 4px; /* Rounded corners */
+    background-color: white; /* Background color */
+    outline: none; /* Remove outline */
+    transition: border-color 0.2s; /* Smooth transition */
+    /* height: 50px; */
+    margin-bottom: 1rem;
+}
+
+.selectInput:focus {
+    border-color: #007bff; /* Change border color on focus */
+}
+
+.linkButton {
+    background: none;
+    border: none;
+    color: blue;
+    cursor: pointer;
+}

@@ -1,0 +1,6 @@
+/* src/components/user/add-user.module.css */
+.customButton {
+    width: 100px; /* Change this value to set the desired width */
+    background-color: #007bff !important;
+  }
+  

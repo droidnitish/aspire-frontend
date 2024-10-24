@@ -1,0 +1,38 @@
+/* src/styles/common/dashboard-layout.module.css */
+.dashboardLayout {
+  display: flex; /* Flexbox to align sidebar and content area */
+  min-height: 100vh; /* Full viewport height */
+}
+
+.contentContainer {
+  display: flex; /* Flex to arrange sidebar and content side by side */
+  width: 100%; /* Full width of the container */
+}
+
+.sidebar {
+  width: 250px; /* Set the width of the sidebar */
+  /* Height is handled in sidebar.module.css */
+}
+
+.contentBar {
+  flex-grow: 1; /* Allow the content area to take remaining space */
+  display: flex;
+  flex-direction: column; /* Arrange header and outlet vertically */
+  padding: 0; /* Adjust padding as necessary */
+  background-color: #cccccc; /* Optional background for the content area */
+}
+
+.contentBarHeader {
+
+}
+
+.contentBarContainer {
+  padding: 0.5rem;
+}
+.contentBarCard {
+  border-radius: 0.1rem;
+}
+.contentBarCardBody {
+  padding: 0.5rem; 
+  min-height: 75vh;
+}

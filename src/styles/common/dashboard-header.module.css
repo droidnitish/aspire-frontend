@@ -1,0 +1,27 @@
+/* src/styles/common/dashboard-header.module.css */
+.header {
+    padding: 0.1rem; /* Add padding to the header */
+    display: flex; /* Use flexbox for layout */
+    align-items: center;
+    /* background-color: #fff;  */
+  }
+  
+  .label {
+    font-size: 0.8rem; /* Label font size */
+    background-color: #e6d8d8; /* Light blue background for the label */
+    padding: 0.2rem 0.5rem; /* Padding around the label text */
+    border-radius: 5px; /* Optional: Add some border radius */
+    text-transform: uppercase;
+  }
+  
+  .separator {
+    margin: 0 0.2rem; /* Space around the separator */
+    font-size: 0.8rem; /* Optional: Adjust font size */
+    color: #6c757d; /* Make sure the color is visible */
+  }
+  
+  .path {
+    font-size: 0.8rem; /* Path font size */
+    color: #6c757d; /* Gray color for the path */
+  }
+  

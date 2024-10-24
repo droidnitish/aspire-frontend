@@ -1,0 +1,66 @@
+/* src/components/auth/loginForm.module.css */
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 400px;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+    box-sizing: border-box;
+  }
+  
+  h2 {
+    margin-bottom: 1.5rem;
+    color: #3b5699;
+    font-size: 2rem;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  input {
+    margin-bottom: 1rem;
+    padding: 0.75rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  button[type="submit"] {
+    padding: 0.75rem;
+    background-color: #3b5699;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #2f4a80;
+  }
+  
+  p {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+  }
+  
+  .linkButton {
+    background: none;
+    border: none;
+    color: #3b5699;
+    cursor: pointer;
+    text-decoration: underline;
+    padding: 0;
+    font-size: 1rem;
+  }
+  

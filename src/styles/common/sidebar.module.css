@@ -1,0 +1,70 @@
+/* src/styles/common/sidebar.module.css */
+.sidebar {
+  height: 100vh; /* Full height */
+  display: flex;
+  flex-direction: column; /* Ensure the logo and menu stack vertically */
+  transition: width 0.3s ease; /* Smooth transition for width */
+  width: 250px; /* Full width when not collapsed */
+  background-color: var(--white); /* Background color for sidebar */
+  /* border-right: 1px solid #007bff; */
+}
+
+.sidebar.collapsed {
+  width: 60px; /* Width when collapsed */
+  align-items: center;
+}
+
+.logoContainer {
+  height: 70px;
+  text-align: center; /* Center logo text */
+  /* border-bottom: 1px solid #007bff; */
+  color: #007bff; /* Logo text color */
+  background-color: var(--white);
+  align-items: center;
+  padding: 0.5rem;
+}
+
+.appName {
+  margin: 0; /* Remove default margin */
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  flex-grow: 1; /* Allow the list to take remaining space */
+  overflow-y: auto; /* Enable scrolling if content exceeds height */
+  padding: 1rem;
+}
+
+.logo {
+  width: 100%; /* Responsive logo width */
+  max-width: 150px; /* Maximum width for the logo */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.sidebar li {
+  margin-bottom: 1rem;
+}
+
+.sidebar a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  color: black;
+  font-size: 1rem;
+}
+
+.sidebar a:hover {
+  color: #007bff;
+}
+
+.icon {
+  margin-right: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.active {
+  font-weight: bold;
+  color: #007bff;
+}

@@ -1,0 +1,25 @@
+/* src/styles/common/header.module.css */
+.header {
+  display: flex;
+  justify-content: space-between; /* Space between app name and options */
+  align-items: center; /* Center items vertically */
+  padding: 1rem; /* Padding around the header */
+  background-color: var(--white); /* Light background for visibility */
+  /* border-bottom: 1px solid #007bff; */
+  top: 0; /* Align to the top */
+  z-index: 1000; /* Ensure it is above other elements */
+  height: 70px;
+  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+}
+
+.toggleButton {
+  cursor: pointer; /* Change cursor to pointer for toggle button */
+  font-size: 1.5rem; /* Adjust size of the toggle icon */
+  margin-right: 1rem; /* Space between toggle button and app name */
+  color: #007bff;
+}
+
+.appName {
+  flex-grow: 1; /* Make the app name take available space */
+  text-align: center; /* Center the app name */
+}

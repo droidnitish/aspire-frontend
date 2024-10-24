@@ -1,0 +1,22 @@
+[
+  {
+    "label": "Dashboard",
+    "path": "/dashboard",
+    "icon": "FaTachometerAlt"
+  },
+  {
+    "label": "Property",
+    "path": "/dashboard/property",
+    "icon": "FaHome"
+  },
+  {
+    "label": "Users",
+    "path": "/dashboard/users",
+    "icon": "FaUser"
+  },
+  {
+    "label": "Settings",
+    "path": "/dashboard/settings",
+    "icon": "FaCog"
+  }
+]
